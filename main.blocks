@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="radio_on_number_drag" id="=;DEOO{$-F6O-]xz,ujr" x="0" y="0"><value name="HANDLER_DRAG_PARAM_receivedNumber"><shadow type="argument_reporter_number" id="{(wJGh{qXiv0yWric[dc"><field name="VALUE">receivedNumber</field></shadow></value><statement name="HANDLER"><block type="controls_if" id="b}`xP!epR%@P-!l1^LHy"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id=")7u,)O2hUxigt5Mf|(!/"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="argument_reporter_number" id="jTG%:bey56W!E]2+PebE"><field name="VALUE">receivedNumber</field></block></value><value name="B"><shadow type="math_number" id="GU:G}kjejj4SM_jPK`BE"><field name="NUM">42</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="aVrE=+7g=V-jO}|[;+{}"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="music_playable_play" id="4H}X@yA0+8Ebd8[E]/7y"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="fCSP/{jN_ZP3^GTC+;lg"><value name="note"><shadow type="device_note" id="PEueHJVoQtVTgMtc)2}n"><field name="name">784</field></shadow></value><value name="duration"><shadow type="device_beat" id="b@6_=f9I2KA-!*(D1g(a"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value><next><block type="device_show_leds" id="GaT,09C2eV$+`h1|nvxI"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
